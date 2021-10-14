@@ -1,0 +1,55 @@
+.page-content-wrapper h1
+{
+	font-weight: lighter;
+	font-size:120px;
+	color: #f6b93b;
+	text-align: center;
+	padding-top:0px;
+	margin-bottom:0;
+  font-family: 'UnifrakturCook', cursive;
+  font-family: 'Black Han Sans', sans-serif;
+}
+
+.btnbtn-success{
+  position: absolute;
+  color: black;
+}
+
+.page-content-wrapper p
+{
+	color: #c8d6e5;
+	text-align: center;
+	font-weight: lighter;
+	font-family: Source Sans Pro;
+	font-size:40px;
+	margin-top:0;
+  margin-bottom: 60px;
+}
+
+.media
+{
+  position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-53%,-50%);
+}
+
+.media li
+{
+	list-style: none;
+	margin: 10px 10px;
+	display: inline-block;
+	font-size: 40px;
+	padding: 20px 20px;
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	transition: .5s;
+	margin-top:280px;
+}
+ .media li:hover
+ {
+	 color: #292929;
+	 border: 1px solid #292929;
+	 transition: .5s;
+ }

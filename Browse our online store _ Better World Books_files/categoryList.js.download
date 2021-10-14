@@ -1,0 +1,1 @@
+define(['text!templates/categoryList.html'],function(template){Vue.component('categorylist',{template:template,props:['promoted-category1','promoted-category2','promoted-category3','promoted-category4','promoted-category5','promoted-category-link1','promoted-category-link2','promoted-category-link3','promoted-category-link4','promoted-category-link5'],});});

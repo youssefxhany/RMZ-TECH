@@ -1,0 +1,131 @@
+.avatar {
+  vertical-align: middle;
+  width: 10%;
+  height: 10;
+  border-radius: 50%;
+    -webkit-text-fill-color: #564A39; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+
+.checked {
+  color: orange;
+}
+
+#particles-js
+{
+  height: 100%;
+  width: 100%;
+  background: #AEADAF;
+}
+.content {
+  position: absolute;
+  top: 51%;
+  left: 68%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 100%;
+  padding: 5%;
+  text-align: center;
+  font-size: 100%;
+
+}
+
+.txt {
+  font-weight: italic;
+        margin-top: 1%;
+
+    margin-bottom: 1%;
+
+}
+
+.bg-text3 {
+  font-weight: bold;
+  position: absolute;
+  top: 45%;
+  left: 13%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 100%;
+  padding: 5%;
+  text-align: center;
+  font-size: 100%;
+  color: #aeadaf;
+  -webkit-text-fill-color: red; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+
+.bg-text1 {
+  position: absolute;
+  top: 60%;
+  left: 13%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 100%;
+  padding: 4%;
+  text-align: center;
+  color: orange;
+  -webkit-text-fill-color: orange; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.bg-text2 {
+  background-color: #ffffff;
+  border-radius: 5%;
+  position: absolute;
+  top: 47%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 60%;
+  padding: 4%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+
+}
+
+.tab{
+   font-weight: italic;
+  background-color: #ffffff;
+  color: #aeadaf;
+  -webkit-text-fill-color: black; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.profile-user-buttons{
+	text-align: center;
+	margin-top: 1%;
+
+}
+
+.btn{
+	text-transform: uppercase;
+	font-size: 11px;
+	font-weight: 600;
+	padding: 2% 4%;
+	margin-right: 5px;
+}
+
+
+.con{
+
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 102%;
+  font-size: 15px;
+  text-align: center;
+  color: #aeadaf;
+
+}
+
+footer{
+  background-color: #AEADAF;
+}

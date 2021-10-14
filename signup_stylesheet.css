@@ -1,0 +1,318 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+  background-size: cover;
+}
+
+.container{
+  position:absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 98vw;
+  height: 97vh;
+}
+
+.inner{
+  position:absolute;
+  margin-top: 10vh;
+  width: 30vw;
+  height: 110vh;
+  background-color: rgba(255,255,255,0.72);
+  border-radius: 10px;
+
+}
+
+.title{
+  position:absolute;
+  width: 30vw;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  background-color: #564A39;
+  color: #ffffff;
+}
+
+.title h3{
+  position:absolute;
+  padding-left: 16%;
+  padding-bottom: 5%;
+  font-size: 2.2em;
+
+}
+
+.content{
+  position:absolute;
+  height: 37vh;
+  margin-top: 20%;
+}
+
+.txt{
+  background-color: #fffefe;
+  margin-top: 5%;
+  margin-left: 8%;
+  width: 25vw;
+}
+
+.txt2{
+  background-color: #fffefe;
+  margin-top: 5%;
+  margin-left: 8%;
+  width: 25vw;
+}
+
+.txt2 span{
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+.glyphicon{
+  color: #b2b2b2;
+  font-size: 18px;
+}
+
+.content input{
+  width: 22vw;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border: 0;
+}
+
+.content input[placeholder]{
+  font-size: 1.3em;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.content2{
+  margin-top: 6%;
+  margin-left: 0;
+}
+
+.content2 input{
+  width:11vw;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-left: 8%;
+  margin-top: 80%;
+  border: 0;
+}
+
+.content2 input[placeholder]{
+  font-size: 1.3em;
+  padding-left: 3%;
+  padding-right: 5%;
+}
+
+.radios{
+  margin-top: 3%;
+  margin-left: 8%;
+}
+
+.radios h4{
+  display: inline-block;
+  padding-left: 10%;
+  padding-right: 4%;
+  color: #868585;
+}
+
+.radios label{
+  font-size: 1.3em;
+  color: #8e8a8a;
+}
+
+.radios input{
+  margin-left: 8%;
+  margin-right: 2%;
+}
+
+.ckbox{
+  margin-top: 0%;
+  margin-left: 8%;
+  height: 8vh;
+
+}
+
+.ckbox input{
+  margin-left: 8%;
+}
+
+.ckbox span{
+  font-size: 1.3em;
+  margin-left: 3%;
+}
+
+.btnsub{
+  text-align: right;
+
+}
+
+.btnsub input{
+  margin-right: 10%;
+  padding: 2% 6% 2% 6%;
+  margin-top: 3%;
+  background-color: rgb(206,217,255);
+  border: 0;
+  color: black;
+}
+
+.btnsub input:hover{
+  background-color: #44ff44;
+}
+
+.alert {
+  position: inherit;
+  background-color:#E1E9ED;
+  border-radius: 0;
+  border-color: #E1E9ED;
+  display: flex;
+  font-size: 1.1em;
+  margin-left: 7%;
+  color: red;
+}
+
+.alert alert-danger{
+  position: absolute;
+  display: flex;
+  color: red;
+}
+
+.progress_bar{
+  width: 320px;
+  display: flex;
+  background-color: #111;
+  color:white;
+  position: relative;
+}
+
+.progress_bar::before{
+  content: attr(data-label);
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 1.1em;
+  top: .5em;
+  bottom: .5em;
+  font-size: 12;
+
+}
+
+.inner_login{
+  position:absolute;
+  width: 30vw;
+  height: 60vh;
+  background-color: rgba(255,255,255,0.72);
+  border-radius: 10px;
+}
+
+.title_login{
+  position:absolute;
+  width: 30vw;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  background-color: #564A39;
+  color: #ffffff;
+}
+
+.title_login h3{
+  position:absolute;
+  padding-left: 20%;
+  padding-bottom: 5%;
+  font-size: 2.2em;
+}
+
+.txt_login{
+  background-color: #fffefe;
+  margin-top: 8%;
+  margin-left: 8%;
+  margin-bottom: 5%;
+  width: 25vw;
+}
+
+.txt1_login{
+  background-color: #fffefe;
+  margin-top: 5%;
+  margin-left: 8%;
+  width: 25vw;
+}
+
+.txt1_login span{
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+.btnsub_login{
+  text-align: right;
+  margin-top: 5%;
+  margin-left: 13%;
+}
+
+.btnsub_login input{
+  margin-right: 10%;
+  padding: 2% 6% 2% 6%;
+  margin-top: 3%;
+  background-color: rgb(206,217,255);
+  border: 0;
+  color: black;
+}
+
+.btnsub_login input:hover{
+  background-color: #44ff44;
+}
+
+.joe{
+  margin-left: 5px;
+}
+
+.btn_toggle{
+  text-align: right;
+  margin-left: 2px;
+  width:5px;
+  height: 5px;
+}
+
+.btn_toggle input{
+  margin-right: 0%;
+  padding: 0% 0% 0% 0%;
+  margin-top: 3%;
+  background-color: rgb(206,217,255);
+  border: 0;
+  color: black;
+  font-size: 5px;
+}
+
+.btn_toggle input:hover{
+  background-color: #44ff44;
+}
+
+.hide_btn{
+  border: none;
+  background-color: rgba(255,255,255,0.72);
+  display: absolute;
+}
+
+.hide_btn input{
+  background-color: rgba(255,255,255,0.72);
+}
+
+.hide_btn input:hover{
+  background-color: rgba(255,255,255,0.72);
+}
+#particles-js
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+	background-color:#AEADAF;
+	background-size:cover;
+	background-position:center;
+	height:100vh;
+
+}

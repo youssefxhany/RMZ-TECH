@@ -1,0 +1,2 @@
+define(['text!templates/reviews.html'],function(template){Vue.component('reviews',{template:template,data:function(){return{localize:bwb.localize.siteSettings};},mounted:function(){window.sa_date_format='F j, Y';$(document).ready(function(){setTimeout(function(){function saLoadScript(src){var js=window.document.createElement("script");js.src=src;js.type="text/javascript";document.getElementsByTagName("head")[0].appendChild(js);}
+saLoadScript('//www.shopperapproved.com/merchant/25321.js');},0);});},computed:{isReviewPage:function(){return window.is_review_page;}}});});

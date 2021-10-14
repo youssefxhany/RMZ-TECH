@@ -1,0 +1,1 @@
+(function(){require(["comps/ticker","comps/jumbotron","comps/bookPattern","comps/categoryDropdown","comps/categoryList","comps/categoryRow","comps/curatedRow","comps/gridBook","comps/emailsignup","comps/htmlRow"],function(){bwb.homeApp=new Vue({el:"#homeApp",data:function(){return{sharedState:bwb.store.state}}})})})()
